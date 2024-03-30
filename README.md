@@ -10,7 +10,7 @@
 Membuat Project IoT yang dapat dikontrol dan dimonitor dengan menggunakan satu platform IoT yang telah dipelajari yaitu TELEGRAM BOT
 
 ## Metode IOT 
-
+Menggunakan bot dari telegram untuk menghidupkan 4 LED dan juga monitoring suhu dari DHT 11, akan dibuat grup dalam telegram yang berisi 3 orang + 1 Bot untuk monitoring hal tersebut, kemudian setiap orang punya 3 LED masing2 secara private artinya jika Si B menghidupkan lampu A maka akan ada pesan danger "Anda tidak memiliki Akses" dan juga 1 LED yang bisa dihidupkan oleh semua orang, dan dht 11 juga bisa dimonitorng oleh semua orang.
 
 ## Pembagian Tugas
 1. Muhammad Arif : Merakit rangkaian
