@@ -28,7 +28,7 @@ Menggunakan bot dari telegram untuk menghidupkan 4 LED dan juga monitoring suhu 
 
 ## Board Schematic
 
-![Board Schematic](https://github.com/Kuuhaku456/posttest3-praktikum-iot-unmul/blob/main/sketch_real.jpg)
+![Board Schematic](https://github.com/Kuuhaku456/posttest3-praktikum-iot-unmul/blob/main/Gambar_Real_Sketsa.jpg)
 
 ## Link video 
-[Lampiran Video](https://drive.google.com/file/d/1OCOZgnAOE7rQbZ0SB5Covndn2JWTDl9P/view?usp=drive_link)
+[Lampiran Video](https://drive.google.com/file/d/1igVZu2edogFl3B3rgP7S3eKV7EmxxCEB/view?usp=sharing)
