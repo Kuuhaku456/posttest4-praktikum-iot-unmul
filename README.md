@@ -15,15 +15,19 @@ Membuat Project IoT yang dapat dikontrol dan dimonitor dengan menggunakan satu p
 
 - Sensor pH: Dipasang di dalam air untuk mengukur tingkat keasaman atau alkalinitas air.
 - Sensor Turbidity: Juga ditempatkan di dalam air untuk mendeteksi tingkat kekeruhan, yang mengindikasikan jumlah partikel tersuspensi dalam air.
+
 2. Pengumpulan Data:
 
 Kedua sensor mengirimkan data analog ke mikrokontroler (seperti Arduino atau ESP32) yang telah diprogram untuk membaca dan mengolah data tersebut.
+
 3. Pengiriman Data:
 
 Data yang telah diolah oleh mikrokontroler dikirimkan ke broker MQTT secara nirkabel. MQTT adalah protokol pesan yang ringan dan ideal untuk komunikasi IoT.
+
 4. Visualisasi Data:
 
 Data yang diterima oleh broker MQTT kemudian ditampilkan secara real-time di aplikasi yang dibuat dengan Kodular. Aplikasi ini memvisualisasikan hasil pengukuran dalam bentuk grafik atau indikator lainnya.
+
 5. Indikator LED:
 
 Berdasarkan data yang diterima, mikrokontroler akan mengaktifkan LED indikator: LED merah untuk kondisi air yang kritis, LED kuning untuk kondisi waspada, dan LED hijau untuk kondisi aman.
