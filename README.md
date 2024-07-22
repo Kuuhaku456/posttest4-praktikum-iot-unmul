@@ -10,12 +10,23 @@
 Membuat Project IoT yang dapat dikontrol dan dimonitor dengan menggunakan satu platform IoT yang telah dipelajari yaitu TELEGRAM BOT
 
 ## Metode IOT 
-Menggunakan bot dari telegram untuk menghidupkan 4 LED dan juga monitoring suhu dari DHT 11, akan dibuat grup dalam telegram yang berisi 3 orang + 1 Bot untuk monitoring hal tersebut, kemudian setiap orang punya 3 LED masing2 secara private artinya jika Si B menghidupkan lampu A maka akan ada pesan danger "Anda tidak memiliki Akses" dan juga 1 LED yang bisa dihidupkan oleh semua orang, dan dht 11 juga bisa dimonitorng oleh semua orang.
+### Metode Alat Monitoring Kekeruhan Air
+1. Pemasangan Sensor:
 
-## Pembagian Tugas
-1. Muhammad Arif : Merakit rangkaian
-2. Filipus Manik : membuat codingan dan Set up thingspeak
-3. Muhammad Rifan Fathoni : Membantu Codingan dan Thingspeak
+- Sensor pH: Dipasang di dalam air untuk mengukur tingkat keasaman atau alkalinitas air.
+- Sensor Turbidity: Juga ditempatkan di dalam air untuk mendeteksi tingkat kekeruhan, yang mengindikasikan jumlah partikel tersuspensi dalam air.
+2. Pengumpulan Data:
+
+Kedua sensor mengirimkan data analog ke mikrokontroler (seperti Arduino atau ESP32) yang telah diprogram untuk membaca dan mengolah data tersebut.
+3. Pengiriman Data:
+
+Data yang telah diolah oleh mikrokontroler dikirimkan ke broker MQTT secara nirkabel. MQTT adalah protokol pesan yang ringan dan ideal untuk komunikasi IoT.
+4. Visualisasi Data:
+
+Data yang diterima oleh broker MQTT kemudian ditampilkan secara real-time di aplikasi yang dibuat dengan Kodular. Aplikasi ini memvisualisasikan hasil pengukuran dalam bentuk grafik atau indikator lainnya.
+5. Indikator LED:
+
+Berdasarkan data yang diterima, mikrokontroler akan mengaktifkan LED indikator: LED merah untuk kondisi air yang kritis, LED kuning untuk kondisi waspada, dan LED hijau untuk kondisi aman.
 
 ## Komponen yang digunakan
 1. 4 buah lampu LED
